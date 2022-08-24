@@ -1,0 +1,111 @@
+/* Productos */
+
+
+.div-body{
+    background-color: #a07d38;
+}
+
+.estilo-nav{
+    background-color: #a07d38;
+}
+
+.estilo-button{
+    background-color:  rgb(100, 66, 27);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+    border-color: black; 
+}
+
+.produc{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(1.2fr);
+    grid-template-areas: "titProduc"
+                         "parraProduc"
+                         "ulProduc"
+                         "divProducUno"
+                         "divProducDos"
+                         "divProducTres"
+                         "divProducCuatro";
+    justify-content: center; 
+    justify-items: center; 
+    align-items: center; 
+   
+}
+
+.titProduc{
+    grid-area: titProduc;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(100, 66, 27);
+    font-size: 2rem;
+    margin: 0.5rem;
+   
+}
+
+.parraProduc{
+    grid-area: parraProduc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0.7rem;
+   
+}
+
+.ulProduc{
+    grid-area: ulProduc;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(100, 66, 27);
+    font-size: 2rem;
+    list-style: none;
+    text-align: center;
+    margin-top: 12rem;
+
+    .ulProduc li{
+        padding-bottom: 1.5rem;
+    }
+        
+}
+
+.divProducUno{
+    grid-area: divProducUno;
+    max-width: 100%;
+    max-height: 100%; 
+    margin: 0.8rem;  
+    
+}
+
+.divProducDos{
+    grid-area: divProducDos;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0.8rem;  
+     
+}
+
+.divProducTres{
+    grid-area: divProducTres;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0.8rem;   
+     
+}
+
+.divProducCuatro{
+    grid-area: divProducCuatro;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0.8rem;   
+     
+}
+
+
+
+.imaProduc{
+  width: 600px;
+  height: 700px;
+  margin-top: 1rem;
+  &:hover{
+    box-shadow: 0 0.1rem 0.4rem black;
+  }
+}
+

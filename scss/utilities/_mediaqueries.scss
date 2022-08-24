@@ -131,3 +131,41 @@
     }
 
 }
+
+/* Mediaqueries Productos */
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+  
+
+    .produc{
+        grid-template-areas: "titProduc titProduc"
+                             "parraProduc parraProduc"
+                             "ulProduc ulProduc"
+                             "divProducUno divProducDos"
+                             "divProducTres divProducCuatro";
+        justify-content: center; 
+        justify-items: center; 
+        align-items: center; 
+       
+    }
+
+
+
+}
+
+@media screen and (min-width: 992px){
+  
+
+    .produc{
+        grid-template-areas: "titProduc titProduc titProduc titProduc"
+                             "parraProduc parraProduc parraProduc parraProduc"
+                             "ulProduc ulProduc ulProduc ulProduc"
+                             "divProducUno divProducDos divProducTres divProducCuatro";
+        justify-content: center; 
+        justify-items: center; 
+        align-items: center; 
+       
+    }
+
+}
+
