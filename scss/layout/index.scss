@@ -1,0 +1,243 @@
+
+
+
+
+/* Reset */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Index */
+
+body{
+    background-color: rgb(160, 125, 56);
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .logo{
+            margin: 0.8rem;
+            width: 5rem;
+           
+        }
+
+        .menu ul{
+            display: flex;
+            column-gap: 1rem;
+
+            
+            .menu ul li{
+                font-family: 'Kdam Thmor Pro', sans-serif;
+                list-style: none;
+                background-color: rgb(184, 131, 72);
+                padding: 0.5rem;
+                border-radius: 1rem; 
+                box-shadow: 1px 1px brown;
+                
+                .menu ul li a{
+                    text-decoration: none;
+                    color: black; 
+                    font-size: 0.55rem;
+                }
+            }
+            
+        }
+
+        .divisor{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .foto{
+            margin: 0.4rem;
+            width: 30%;
+            height: 40%;
+            box-shadow: 3px 3px rgb(90, 88, 88);
+            
+        }
+
+       
+    }
+
+    .estilo-card{
+        background-color:rgb(235, 229, 181);
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        color: #a07d38;
+        margin: auto;
+        padding-top: 0.5rem;
+    }
+
+    
+    .mainHome{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr 1.5fr 1.5fr;
+        grid-template-areas: "titulo"
+                            "parrafo"
+                            "tituloDos"
+                            "fotoUno" 
+                            "fotoDos"
+                            "fotoTres" 
+                            "fotoCuatro";
+        justify-content: center; 
+        justify-items: center; 
+        align-items: center;
+
+        .titulo{
+            grid-area: titulo;
+            text-align: center;
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            font-size: 0.5rem;
+            margin-top: 1rem;
+            padding: 0.5rem;
+        }
+            
+        .tituloDos{
+            grid-area: tituloDos;
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            text-decoration: solid;
+            text-align: center;
+            font-size: 1.2rem;
+            color: rgb(100, 66, 27);
+            margin-top: 1rem;
+               
+        }
+            
+            
+            
+        .parrafo{
+            grid-area: parrafo;
+            font-size: 0.6rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 1rem;
+            padding: 0.5rem;
+        }
+            
+        .fotoUno{
+            grid-area: fotoUno;
+            margin: 1rem;
+            transition: 2s;
+        }
+            
+        .fotoUno:hover{
+            transform: scale(1.2);
+        }
+            
+        .fotoDos{
+            grid-area: fotoDos;
+            margin: 1rem;
+            transition: 2s;
+        }
+            
+        .fotoDos:hover{
+            transform: scale(1.2);
+        }
+            
+        .fotoTres{
+            grid-area: fotoTres;
+            margin: 1rem;
+            transition: 2s;
+        }
+            
+        .fotoTres:hover{
+            transform: scale(1.2);
+        }
+            
+        .fotoCuatro{
+            grid-area: fotoCuatro;
+            margin: 1rem;
+            transition: 2s;
+        }
+            
+        .fotoCuatro:hover{
+            transform: scale(1.2);
+        }
+            
+        .fotoCinco{
+            display: none;
+        }
+    }
+        
+    
+    
+    
+   
+
+    .pie{
+        text-align: center;
+
+        .pie .categorias{
+            display: inline-block;
+            padding: 0.8rem;
+            color: white;
+            list-style-type: circle;
+            text-align: left;
+
+            .pie .categorias .subLista{
+                list-style: none ;
+                text-align: left;
+                
+            }
+
+            .pie .categorias .subListaDos{
+                list-style: none;
+
+                .pie .categorias .subListaDos a{
+                    display: inline-block;
+                    width: 1.5rem;
+                    height: 1.5rem;
+
+                    .pie .categorias .subListaDos a img{
+                        width: 1.3rem;
+                        height: 1.3rem;
+                    }
+                }
+                
+            }
+        }
+        
+    }
+
+    .tituloFooter{
+        color: white;
+        text-align: center;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        
+    }
+    
+    .imagenFooter{
+        width: 30%;
+        padding: 1rem;
+            
+    }
+    
+    .img-footer{
+        width: 30%;
+        padding: 1rem;
+    }
+    
+    .img-redes{
+        width: 25%;
+        padding: 1rem;
+    }
+    
+    
+    
+    
+    .parrafoFooter{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        
+    }
+
+    
+    
+}
