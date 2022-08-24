@@ -1,0 +1,66 @@
+/* Quienes somos */
+
+
+.quienes{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 1fr;
+    grid-template-areas: "tituloQuienes"
+                         "subQuienes"
+                         "parrafoQuienes"
+                         "parrafoQuienesDos"
+                         "parrafoQuienesTres"
+                         "videosQuienes";
+    justify-content: center; 
+    justify-items: center; 
+    align-items: center; 
+}
+
+.tituloQuienes{
+    grid-area: tituloQuienes;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(100, 66, 27);
+    font-size: 2.5rem;
+    
+}
+
+.subQuienes{
+    grid-area: subQuienes;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    padding-left: 0.5rem;
+}
+
+.parrafoQuienes{
+    grid-area: parrafoQuienes;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    padding: 0.5rem; 
+}
+
+.parrafoQuienesDos{
+    grid-area: parrafoQuienesDos;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    padding: 0.5rem; 
+}
+
+.parrafoQuienesTres{
+    grid-area: parrafoQuienesTres;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    padding: 0.5rem; 
+}
+
+.videoQuienes{
+    grid-area: videoQuienes;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}

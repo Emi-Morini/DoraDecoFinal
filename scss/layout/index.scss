@@ -1,15 +1,4 @@
 
-
-
-
-/* Reset */
-
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
 /* Index */
 
 body{
@@ -124,36 +113,41 @@ body{
             grid-area: fotoUno;
             margin: 1rem;
             transition: 2s;
+            &:hover{
+                transform: scale(1.2);
+            }
         }
-            
-        .fotoUno:hover{
-            transform: scale(1.2);
-        }
+     
             
         .fotoDos{
             grid-area: fotoDos;
             margin: 1rem;
             transition: 2s;
+            &:hover{
+                transform: scale(1.2);
+            }
         }
             
-        .fotoDos:hover{
-            transform: scale(1.2);
-        }
+    
             
         .fotoTres{
             grid-area: fotoTres;
             margin: 1rem;
             transition: 2s;
+            &:hover{
+                transform: scale(1.2);
+            }
         }
             
-        .fotoTres:hover{
-            transform: scale(1.2);
-        }
+     
             
         .fotoCuatro{
             grid-area: fotoCuatro;
             margin: 1rem;
             transition: 2s;
+            &:hover{
+                transform: scale(1.2);
+            }
         }
             
         .fotoCuatro:hover{
