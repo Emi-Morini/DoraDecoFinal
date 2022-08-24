@@ -1,0 +1,59 @@
+/* Contactos */
+
+.secConta{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "tituConta"
+                         "parraConta"
+                         "ulConta"
+                         "parraContaDos"
+                         "titulConta"
+                         "formConta";
+    justify-content: center; 
+    justify-items: center; 
+    align-items: center;                      
+}
+
+.tituConta{
+    grid-area: tituConta;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(100, 66, 27) ;
+    font-size: 2rem;
+    
+}
+
+
+.parraConta{
+    grid-area: parraConta;
+    font-size: 1.2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1rem;
+}
+
+.parraContaDos{
+    grid-area: parraContaDos;
+    font-size: 1.2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1rem;
+}
+
+.ulConta{
+    grid-area: ulConta;
+    margin: 1.5rem;
+}
+
+.titulConta{
+    grid-area: titulConta;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(100, 66, 27);
+    font-size: 1.3rem;
+    margin: 2rem;
+    
+}
+
+.formConta{
+    grid-area: formConta;
+    margin: 2rem;
+   
+}
