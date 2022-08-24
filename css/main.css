@@ -269,6 +269,35 @@ body {
   .imaProduc:hover {
     box-shadow: 0 0.1rem 0.4rem black; }
 
+/* Medios de pago */
+.sectionMedios {
+  margin: 25px;
+  padding: 20px;
+  text-align: center; }
+
+.tituMedios {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: black;
+  font-size: 35px; }
+
+.artiMedios {
+  margin: 20px; }
+
+.tituloMedios {
+  color: #64421b;
+  padding: 20px; }
+
+.imgMedios {
+  width: 100px;
+  height: 100px;
+  margin: 20px; }
+
+.ulMedios {
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  list-style: none; }
+
 /* Mediaqueries Index */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .fotoCinco {
