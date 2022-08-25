@@ -1,8 +1,10 @@
 
-/* Mediaqueries Index */
-
-
 @media screen and (min-width: 576px) and (max-width: 992px){
+
+
+    /* Mediaqueries Index */
+
+
 
     .fotoCinco{
         display: none;
@@ -25,6 +27,7 @@
     }
 
     .mainHome{
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr;
         grid-template-areas: "titulo titulo"
                              "parrafo parrafo"
@@ -36,9 +39,74 @@
         align-items: center;                     
     }
 
+
+
+    /* Mediaqueries Quienes somos */
+
+    .parrafoQuienes{
+        font-size: 1.3rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    .parrafoQuienesDos{
+        font-size: 1.3rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    .parrafoQuienesTres{
+        font-size: 1.3rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    .videoQuienes{
+        width: 40rem;
+        height: 40rem;
+    }
+
+    /* Mediaqueries Productos */
+
+    .produc{
+        grid-template-areas: "titProduc titProduc"
+                             "parraProduc parraProduc"
+                             "ulProduc ulProduc"
+                             "divProducUno divProducDos"
+                             "divProducTres divProducCuatro";
+        justify-content: center; 
+        justify-items: center; 
+        align-items: center; 
+       
+    }
+
+    /* Mediaqueries Contactos */
+
+    .tituConta{
+        font-size: 2.3rem;
+       
+    }
+
+    .parraConta{
+        font-size: 1.05rem;
+    }
+
+    .parraContaDos{
+        font-size: 1.05rem;
+    }
+
+    .ulConta{
+        font-size: 1rem;
+    }
+
+
+
+
 }
 
 @media screen and (min-width: 992px){
+
+    /* Mediaqueries Index */
    
 
     .fotoCinco{
@@ -79,44 +147,9 @@
         justify-items: center; 
         align-items: center;                
     }
-   
-}
-    
 
 
-
-/* Mediaqueries Quienes somos */
-
-@media screen and (min-width: 576px) and (max-width: 992px){
-
-    .parrafoQuienes{
-        font-size: 1.3rem;
-        padding: 0.5rem;
-        margin: 0.5rem;
-    }
-
-    .parrafoQuienesDos{
-        font-size: 1.3rem;
-        padding: 0.5rem;
-        margin: 0.5rem;
-    }
-
-    .parrafoQuienesTres{
-        font-size: 1.3rem;
-        padding: 0.5rem;
-        margin: 0.5rem;
-    }
-
-    .videoQuienes{
-        width: 40rem;
-        height: 40rem;
-    }
-
-
-}
-
-@media screen and (min-width: 992px){
-    
+    /* Mediaqueries Quienes somos */
 
     .parrafoQuienes{
         font-size: 1.6rem;
@@ -135,31 +168,7 @@
         height: 45rem;
     }
 
-}
-
-/* Mediaqueries Productos */
-
-@media screen and (min-width: 576px) and (max-width: 992px){
-  
-
-    .produc{
-        grid-template-areas: "titProduc titProduc"
-                             "parraProduc parraProduc"
-                             "ulProduc ulProduc"
-                             "divProducUno divProducDos"
-                             "divProducTres divProducCuatro";
-        justify-content: center; 
-        justify-items: center; 
-        align-items: center; 
-       
-    }
-
-
-
-}
-
-@media screen and (min-width: 992px){
-  
+    /* Mediaqueries Productos */
 
     .produc{
         grid-template-areas: "titProduc titProduc titProduc titProduc"
@@ -172,33 +181,7 @@
        
     }
 
-}
-
-/* Mediaqueries Contactos */
-
-@media screen and (min-width: 576px) and (max-width: 992px){
-   
-    .tituConta{
-        font-size: 2.3rem;
-       
-    }
-
-    .parraConta{
-        font-size: 1.05rem;
-    }
-
-    .parraContaDos{
-        font-size: 1.05rem;
-    }
-
-    .ulConta{
-        font-size: 1rem;
-    }
-
-
-}
-
-@media screen and (min-width: 992px){
+    /* Mediaqueries Contactos */
 
     .tituConta{
         font-size: 2.5rem;
@@ -217,3 +200,5 @@
     }
 
 }
+
+   
