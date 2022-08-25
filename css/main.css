@@ -46,13 +46,7 @@ body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr 1.5fr 1.5fr;
-    grid-template-areas: "titulo"
- "parrafo"
- "tituloDos"
- "fotoUno" 
- "fotoDos"
- "fotoTres" 
- "fotoCuatro";
+    grid-template-areas: "titulo" "parrafo" "tituloDos" "fotoUno"  "fotoDos" "fotoTres"  "fotoCuatro";
     justify-content: center;
     justify-items: center;
     align-items: center; }
@@ -150,12 +144,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 1fr;
-  grid-template-areas: "tituloQuienes"
- "subQuienes"
- "parrafoQuienes"
- "parrafoQuienesDos"
- "parrafoQuienesTres"
- "videosQuienes";
+  grid-template-areas: "tituloQuienes" "subQuienes" "parrafoQuienes" "parrafoQuienesDos" "parrafoQuienesTres" "videosQuienes";
   justify-content: center;
   justify-items: center;
   align-items: center; }
@@ -219,13 +208,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(1.2fr);
-  grid-template-areas: "titProduc"
- "parraProduc"
- "ulProduc"
- "divProducUno"
- "divProducDos"
- "divProducTres"
- "divProducCuatro";
+  grid-template-areas: "titProduc" "parraProduc" "ulProduc" "divProducUno" "divProducDos" "divProducTres" "divProducCuatro";
   justify-content: center;
   justify-items: center;
   align-items: center; }
@@ -320,12 +303,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  grid-template-areas: "tituConta"
- "parraConta"
- "ulConta"
- "parraContaDos"
- "titulConta"
- "formConta";
+  grid-template-areas: "tituConta" "parraConta" "ulConta" "parraContaDos" "titulConta" "formConta";
   justify-content: center;
   justify-items: center;
   align-items: center; }
@@ -377,38 +355,7 @@ body {
     font-size: 2rem; }
   .mainHome {
     grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr;
-    grid-template-areas: "titulo titulo"
- "parrafo parrafo"
- "tituloDos tituloDos"
- "fotoUno fotoDos" 
- "fotoTres fotoCuatro";
-    justify-content: center;
-    justify-items: center;
-    align-items: center; } }
-
-@media screen and (min-width: 992px) {
-  .fotoCinco {
-    display: block;
-    grid-area: fotoCinco;
-    transition: 2s; }
-  .fotoCinco:hover {
-    transform: scale(1.2); }
-  .menu ul li a {
-    font-size: 1rem; }
-  .titulo {
-    font-size: 1.5rem; }
-  .parrafo {
-    font-size: 1.2rem; }
-  .tituloDos {
-    font-size: 2rem; }
-  .mainHome {
-    grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr 1.5fr;
-    grid-template-areas: "titulo titulo"
- "parrafo parrafo"
- "tituloDos tituloDos"
- "fotoUno fotoDos" 
- "fotoTres fotoTres"
- "fotoCuatro fotoCinco";
+    grid-template-areas: "titulo titulo" "parrafo parrafo" "tituloDos tituloDos" "fotoUno fotoDos" "fotoTres fotoCuatro";
     justify-content: center;
     justify-items: center;
     align-items: center; } }
@@ -445,21 +392,14 @@ body {
 /* Mediaqueries Productos */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .produc {
-    grid-template-areas: "titProduc titProduc"
- "parraProduc parraProduc"
- "ulProduc ulProduc"
- "divProducUno divProducDos"
- "divProducTres divProducCuatro";
+    grid-template-areas: "titProduc titProduc" "parraProduc parraProduc" "ulProduc ulProduc" "divProducUno divProducDos" "divProducTres divProducCuatro";
     justify-content: center;
     justify-items: center;
     align-items: center; } }
 
 @media screen and (min-width: 992px) {
   .produc {
-    grid-template-areas: "titProduc titProduc titProduc titProduc"
- "parraProduc parraProduc parraProduc parraProduc"
- "ulProduc ulProduc ulProduc ulProduc"
- "divProducUno divProducDos divProducTres divProducCuatro";
+    grid-template-areas: "titProduc titProduc titProduc titProduc" "parraProduc parraProduc parraProduc parraProduc" "ulProduc ulProduc ulProduc ulProduc" "divProducUno divProducDos divProducTres divProducCuatro";
     justify-content: center;
     justify-items: center;
     align-items: center; } }
