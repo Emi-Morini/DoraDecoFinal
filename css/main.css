@@ -50,11 +50,13 @@ header {
 .mainHome {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr 1.5fr 1.5fr;
+  grid-template-rows: auto;
   grid-template-areas: "titulo" "parrafo" "tituloDos" "fotoUno"  "fotoDos" "fotoTres"  "fotoCuatro";
   justify-content: center;
   justify-items: center;
   align-items: center; }
+  .mainHome .fotoCinco {
+    display: none; }
   .mainHome .titulo {
     grid-area: titulo;
     text-align: center;
@@ -102,8 +104,6 @@ header {
     transition: 2s; }
     .mainHome .fotoCuatro:hover {
       transform: scale(1.2); }
-  .mainHome .fotoCinco {
-    display: none; }
 
 .pie {
   text-align: center; }
@@ -352,8 +352,6 @@ header {
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   /* Mediaqueries Index */
-  .fotoCinco {
-    display: none; }
   .menu ul li a {
     font-size: 1rem; }
   .titulo {
@@ -364,7 +362,7 @@ header {
     font-size: 2rem; }
   .mainHome {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "titulo titulo" "parrafo parrafo" "tituloDos tituloDos" "fotoUno fotoDos" "fotoTres fotoCuatro";
     justify-content: center;
     justify-items: center;
@@ -418,7 +416,8 @@ header {
   .tituloDos {
     font-size: 2rem; }
   .mainHome {
-    grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr 1.5fr;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     grid-template-areas: "titulo titulo" "parrafo parrafo" "tituloDos tituloDos" "fotoUno fotoDos"  "fotoTres fotoTres" "fotoCuatro fotoCinco";
     justify-content: center;
     justify-items: center;

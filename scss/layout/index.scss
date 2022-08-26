@@ -73,7 +73,7 @@ header{
 
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-rows: auto;
     grid-template-areas: "titulo"
                             "parrafo"
                             "tituloDos"
@@ -84,6 +84,10 @@ header{
     justify-content: center; 
     justify-items: center; 
     align-items: center;
+
+    .fotoCinco{
+        display: none;
+    }
 
     .titulo{
         grid-area: titulo;
@@ -158,9 +162,7 @@ header{
         }
     }
                       
-    .fotoCinco{
-        display: none;
-    }
+   
    
 }    
     

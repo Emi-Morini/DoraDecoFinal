@@ -4,12 +4,6 @@
 
     /* Mediaqueries Index */
 
-
-
-    .fotoCinco{
-        display: none;
-    }
-
     .menu ul li a {
         font-size: 1rem;
     }
@@ -28,7 +22,7 @@
 
     .mainHome{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: "titulo titulo"
                              "parrafo parrafo"
                              "tituloDos tituloDos"
@@ -136,7 +130,8 @@
     }
 
     .mainHome{
-        grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr 1.5fr;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
         grid-template-areas: "titulo titulo"
                              "parrafo parrafo"
                              "tituloDos tituloDos"
