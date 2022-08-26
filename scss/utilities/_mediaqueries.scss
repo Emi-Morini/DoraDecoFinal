@@ -8,21 +8,9 @@
         font-size: 1rem;
     }
 
-    .titulo{
-        font-size: 1.5rem;
-    }
-
-    .parrafo{
-        font-size: 1.2rem;
-    }
-
-    .tituloDos{
-        font-size: 2rem;
-    }
-
     .mainHome{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr;
         grid-template-areas: "titulo titulo"
                              "parrafo parrafo"
                              "tituloDos tituloDos"
@@ -30,7 +18,19 @@
                              "fotoTres fotoCuatro";
         justify-content: center;
         justify-items: center;
-        align-items: center;                     
+        align-items: center;   
+        
+        .titulo{
+            font-size: 1.5rem;
+        }
+    
+        .parrafo{
+            font-size: 1.2rem;
+        }
+    
+        .tituloDos{
+            font-size: 2rem;
+        }
     }
 
 
@@ -103,32 +103,11 @@
     /* Mediaqueries Index */
    
 
-    .fotoCinco{
-        display: block;
-        grid-area: fotoCinco;
-        transition: 2s;
-    }
-
-    .fotoCinco:hover{
-        transform: scale(1.2);
-    }
-
     .menu ul li a{
         font-size: 1rem;
     }
 
-    .titulo{
-        font-size: 1.5rem;
-    }
-
-    .parrafo{
-        font-size: 1.2rem;
-    }
-
-    .tituloDos{
-        font-size: 2rem;
-    }
-
+   
     .mainHome{
         grid-template-columns: auto;
         grid-template-rows: auto;
@@ -140,7 +119,30 @@
                              "fotoCuatro fotoCinco";
         justify-content: center; 
         justify-items: center; 
-        align-items: center;                
+        align-items: center;  
+        
+        .fotoCinco{
+            display: block;
+            grid-area: fotoCinco;
+            transition: 2s;
+        }
+    
+        .fotoCinco:hover{
+            transform: scale(1.2);
+        }
+
+        .titulo{
+            font-size: 1.5rem;
+        }
+    
+        .parrafo{
+            font-size: 1.2rem;
+        }
+    
+        .tituloDos{
+            font-size: 2rem;
+        }
+    
     }
 
 
