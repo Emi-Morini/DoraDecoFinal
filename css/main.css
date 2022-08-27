@@ -367,6 +367,9 @@ header {
       font-size: 1.2rem; }
     .mainHome .tituloDos {
       font-size: 2rem; }
+  .img-redes {
+    width: 20%;
+    padding: 1rem; }
   /* Mediaqueries Quienes somos */
   .parrafoQuienes {
     font-size: 1.3rem;
@@ -422,6 +425,9 @@ header {
       font-size: 1.2rem; }
     .mainHome .tituloDos {
       font-size: 2rem; }
+  .img-redes {
+    width: 20%;
+    padding: 1rem; }
   /* Mediaqueries Quienes somos */
   .parrafoQuienes {
     font-size: 1.6rem; }
