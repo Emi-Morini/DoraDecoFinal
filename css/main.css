@@ -35,7 +35,7 @@ header {
   justify-content: space-around; }
 
 .foto {
-  margin: 0.4rem;
+  margin: 1rem;
   width: 30%;
   height: 40%;
   box-shadow: 3px 3px #5a5858; }
@@ -243,7 +243,7 @@ header {
   font-size: 2rem;
   list-style: none;
   text-align: center;
-  margin-top: 12rem; }
+  margin-top: 5rem; }
   .ulProduc .ulProduc li {
     padding-bottom: 1.5rem; }
 
@@ -362,14 +362,16 @@ header {
     justify-items: center;
     align-items: center; }
     .mainHome .titulo {
-      font-size: 1.5rem; }
+      font-size: 0.5rem; }
     .mainHome .parrafo {
-      font-size: 1.2rem; }
+      font-size: 0.5rem; }
     .mainHome .tituloDos {
-      font-size: 2rem; }
+      font-size: 1rem; }
   .img-redes {
     width: 20%;
     padding: 1rem; }
+  footer {
+    background-color: aliceblue; }
   /* Mediaqueries Quienes somos */
   .parrafoQuienes {
     font-size: 1.3rem;
