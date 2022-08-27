@@ -30,16 +30,19 @@ header {
         color: black;
         font-size: 0.55rem; }
 
-.divisor {
-  display: flex;
-  justify-content: space-around; }
+/*.divisor{
+    display: flex;
+    justify-content: space-around;
+        
+}
 
-.foto {
-  margin: 1rem;
-  width: 30%;
-  height: 40%;
-  box-shadow: 3px 3px #5a5858; }
-
+.foto{
+    margin: 1rem;
+    width: 30%;
+    height: 40%;
+    box-shadow: 3px 3px rgb(90, 88, 88);
+            
+}*/
 .estilo-card {
   background-color: #ebe5b5;
   font-family: 'Kdam Thmor Pro', sans-serif;
@@ -350,28 +353,84 @@ header {
   grid-area: formConta;
   margin: 2rem; }
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
   /* Mediaqueries Index */
   .menu ul li a {
     font-size: 1rem; }
   .mainHome {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 0.2fr 0.2fr 1.5fr 1.5fr;
-    grid-template-areas: "titulo titulo" "parrafo parrafo" "tituloDos tituloDos" "fotoUno fotoDos" "fotoTres fotoCuatro";
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "titulo" "parrafo" "tituloDos" "fotoUno"  "fotoDos" "fotoTres"  "fotoCuatro";
     justify-content: center;
     justify-items: center;
     align-items: center; }
     .mainHome .titulo {
       font-size: 0.5rem; }
     .mainHome .parrafo {
-      font-size: 0.5rem; }
-    .mainHome .tituloDos {
       font-size: 1rem; }
+    .mainHome .tituloDos {
+      font-size: 1.3rem; }
+  /* Mediaqueries Quienes somos */
+  .parrafoQuienes {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 0.5rem; }
+  .parrafoQuienesDos {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 0.5rem; }
+  .parrafoQuienesTres {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 0.5rem; }
+  .videoQuienes {
+    width: 40rem;
+    height: 40rem; }
+  /* Mediaqueries Productos */
+  .produc {
+    grid-template-areas: "titProduc titProduc" "parraProduc parraProduc" "ulProduc ulProduc" "divProducUno divProducDos" "divProducTres divProducCuatro";
+    justify-content: center;
+    justify-items: center;
+    align-items: center; }
+  /* Mediaqueries Contactos */
+  .tituConta {
+    font-size: 2.3rem; }
+  .parraConta {
+    font-size: 1.05rem; }
+  .parraContaDos {
+    font-size: 1.05rem; }
+  .ulConta {
+    font-size: 1rem; } }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* Mediaqueries Index */
+  .menu ul li a {
+    font-size: 1rem; }
+  .mainHome {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "titulo" "parrafo" "tituloDos" "fotoUno"  "fotoDos" "fotoTres"  "fotoCuatro" "fotoCinco";
+    justify-content: center;
+    justify-items: center;
+    align-items: center; }
+    .mainHome .fotoCinco {
+      display: block;
+      grid-area: fotoCinco;
+      margin: 1rem;
+      transition: 2s; }
+      .mainHome .fotoCinco:hover {
+        transform: scale(1.2); }
+    .mainHome .titulo {
+      font-size: 0.5rem; }
+    .mainHome .parrafo {
+      font-size: 1rem; }
+    .mainHome .tituloDos {
+      font-size: 2rem; }
   .img-redes {
     width: 20%;
     padding: 1rem; }
-  footer {
-    background-color: aliceblue; }
   /* Mediaqueries Quienes somos */
   .parrafoQuienes {
     font-size: 1.3rem;

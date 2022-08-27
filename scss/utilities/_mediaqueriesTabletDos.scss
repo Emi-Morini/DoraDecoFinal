@@ -1,0 +1,125 @@
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+
+    /* Mediaqueries Index */
+
+    .menu ul li a {
+        font-size: 1rem;
+    }
+
+    .mainHome{
+
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "titulo"
+                                "parrafo"
+                                "tituloDos"
+                                "fotoUno" 
+                                "fotoDos"
+                                "fotoTres" 
+                                "fotoCuatro"
+                                "fotoCinco";
+        justify-content: center; 
+        justify-items: center; 
+        align-items: center;
+
+        .fotoCinco{
+            display: block;
+            grid-area: fotoCinco;
+            margin: 1rem;
+            transition: 2s;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+
+        
+        .titulo{
+            font-size: 0.5rem;
+        }
+
+        .parrafo{
+            font-size: 1rem;
+        }
+
+        .tituloDos{
+            font-size: 2rem;
+        }
+        
+    }
+
+    .img-redes{
+        width: 20%;
+        padding: 1rem;
+    }
+
+    
+    
+
+
+
+    /* Mediaqueries Quienes somos */
+
+    .parrafoQuienes{
+        font-size: 1.3rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    .parrafoQuienesDos{
+        font-size: 1.3rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    .parrafoQuienesTres{
+        font-size: 1.3rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    .videoQuienes{
+        width: 40rem;
+        height: 40rem;
+    }
+
+    /* Mediaqueries Productos */
+
+    .produc{
+        grid-template-areas: "titProduc titProduc"
+                             "parraProduc parraProduc"
+                             "ulProduc ulProduc"
+                             "divProducUno divProducDos"
+                             "divProducTres divProducCuatro";
+        justify-content: center; 
+        justify-items: center; 
+        align-items: center; 
+       
+    }
+
+    /* Mediaqueries Contactos */
+
+    .tituConta{
+        font-size: 2.3rem;
+       
+    }
+
+    .parraConta{
+        font-size: 1.05rem;
+    }
+
+    .parraContaDos{
+        font-size: 1.05rem;
+    }
+
+    .ulConta{
+        font-size: 1rem;
+    }
+
+
+
+
+}
