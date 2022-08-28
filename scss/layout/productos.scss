@@ -68,33 +68,25 @@
 
 .divProducUno{
     grid-area: divProducUno;
-    max-width: 100%;
-    max-height: 100%; 
-    margin: 0.8rem;  
+    @extend %div-prod  
     
 }
 
 .divProducDos{
     grid-area: divProducDos;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0.8rem;  
+    @extend %div-prod  
      
 }
 
 .divProducTres{
     grid-area: divProducTres;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0.8rem;   
+    @extend %div-prod   
      
 }
 
 .divProducCuatro{
     grid-area: divProducCuatro;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0.8rem;   
+    @extend %div-prod   
      
 }
 

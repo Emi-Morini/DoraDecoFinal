@@ -106,43 +106,27 @@ header{
             
     .fotoUno{
         grid-area: fotoUno;
-        margin: 1rem;
-        transition: 2s;
-        &:hover{
-            transform: scale(1.2);
-        }
+        @extend %foto;
     }
      
             
     .fotoDos{
         grid-area: fotoDos;
-        margin: 1rem;
-        transition: 2s;
-        &:hover{
-            transform: scale(1.2);
-        }
+        @extend %foto;
     }
             
     
             
     .fotoTres{
         grid-area: fotoTres;
-        margin: 1rem;
-        transition: 2s;
-        &:hover{
-            transform: scale(1.2);
-        }
+        @extend %foto;
     }
             
      
             
     .fotoCuatro{
         grid-area: fotoCuatro;
-        margin: 1rem;
-        transition: 2s;
-        &:hover{
-            transform: scale(1.2);
-        }
+        @extend %foto;
     }
                       
    
@@ -198,14 +182,12 @@ header{
 }
 
 .imagenFooter{
-    width: 30%;
-    padding: 1rem;
+    @extend %img
         
 }
 
 .img-footer{
-    width: 30%;
-    padding: 1rem;
+    @extend %img
 }
 
 .img-redes{
