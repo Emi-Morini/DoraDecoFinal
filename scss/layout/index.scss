@@ -2,7 +2,7 @@
 /* Index */
 
 body{
-    background-color: rgb(160, 125, 56);
+    background-color: $color-body;
 }
 
 header{
@@ -24,7 +24,7 @@ header{
 
             
         li{
-            font-family: 'Kdam Thmor Pro', sans-serif;
+            font-family: $font-kdam;
             list-style: none;
             background-color: rgb(184, 131, 72);
             padding: 0.5rem;
@@ -45,8 +45,8 @@ header{
 
 .estilo-card{
     background-color:rgb(235, 229, 181);
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    color: rgb(160, 125, 56);
+    font-family: $font-kdam;
+    color: $color-body;
     margin: auto;
     padding-top: 0.5rem;
 }
@@ -75,7 +75,7 @@ header{
     .titulo{
         grid-area: titulo;
         text-align: center;
-        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-family: $font-kdam;
         font-size: 0.5rem;
         margin-top: 1rem;
         padding: 0.5rem;
@@ -83,11 +83,11 @@ header{
             
     .tituloDos{
         grid-area: tituloDos;
-        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-family: $font-kdam;
         text-decoration: solid;
         text-align: center;
         font-size: 1.2rem;
-        color: rgb(100, 66, 27);
+        color: $color-titulo;
         margin-top: 1rem;
                
     }
@@ -193,7 +193,7 @@ header{
 .tituloFooter{
     color: white;
     text-align: center;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: $font-kdam;
     
 }
 

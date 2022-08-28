@@ -18,7 +18,7 @@
 
 .tituloQuienes{
     grid-area: tituloQuienes;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: $font-kdam;
     color: $color-titulo;
     font-size: 2.5rem;
     
@@ -35,7 +35,7 @@
 
 .parrafoQuienes{
     grid-area: parrafoQuienes;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: $font-frank;
     font-size: 1rem;
     margin-top: 0.8rem;
     padding: 0.5rem; 
@@ -43,7 +43,7 @@
 
 .parrafoQuienesDos{
     grid-area: parrafoQuienesDos;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: $font-frank;
     font-size: 1rem;
     margin-top: 0.8rem;
     padding: 0.5rem; 
@@ -51,7 +51,7 @@
 
 .parrafoQuienesTres{
     grid-area: parrafoQuienesTres;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: $font-frank;
     font-size: 1rem;
     margin-top: 0.8rem;
     padding: 0.5rem; 
