@@ -18,7 +18,7 @@
 .tituConta{
     grid-area: tituConta;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    color: rgb(100, 66, 27) ;
+    color: $color-titulo;
     font-size: 2rem;
     
 }
@@ -46,7 +46,7 @@
 .titulConta{
     grid-area: titulConta;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    color: rgb(100, 66, 27);
+    color: $color-titulo;
     font-size: 1.3rem;
     margin: 2rem;
     

@@ -30,19 +30,6 @@ header {
         color: black;
         font-size: 0.55rem; }
 
-/*.divisor{
-    display: flex;
-    justify-content: space-around;
-        
-}
-
-.foto{
-    margin: 1rem;
-    width: 30%;
-    height: 40%;
-    box-shadow: 3px 3px rgb(90, 88, 88);
-            
-}*/
 .estilo-card {
   background-color: #ebe5b5;
   font-family: 'Kdam Thmor Pro', sans-serif;

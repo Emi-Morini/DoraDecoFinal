@@ -2,15 +2,15 @@
 
 
 .div-body{
-    background-color: #a07d38;
+    background-color: rgb(160, 125, 56);
 }
 
 .estilo-nav{
-    background-color: #a07d38;
+    background-color: rgb(160, 125, 56);
 }
 
 .estilo-button{
-    background-color:  rgb(100, 66, 27);
+    background-color: $color-titulo;
     font-family: 'Kdam Thmor Pro', sans-serif;
     color: white;
     border-color: black; 
@@ -36,7 +36,7 @@
 .titProduc{
     grid-area: titProduc;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    color: rgb(100, 66, 27);
+    color: $color-titulo;
     font-size: 2rem;
     margin: 0.5rem;
    
@@ -54,7 +54,7 @@
 .ulProduc{
     grid-area: ulProduc;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    color: rgb(100, 66, 27);
+    color: $color-titulo;
     font-size: 2rem;
     list-style: none;
     text-align: center;
