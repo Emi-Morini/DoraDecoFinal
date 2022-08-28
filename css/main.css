@@ -24,6 +24,11 @@
   margin-top: 0.8rem;
   padding: 0.5rem; }
 
+.parraConta, .parraContaDos {
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 1rem; }
+
 /* Index */
 body {
   background-color: #a07d38; }
@@ -289,16 +294,10 @@ header {
   font-size: 2rem; }
 
 .parraConta {
-  grid-area: parraConta;
-  font-size: 1.2rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin: 1rem; }
+  grid-area: parraConta; }
 
 .parraContaDos {
-  grid-area: parraContaDos;
-  font-size: 1.2rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin: 1rem; }
+  grid-area: parraContaDos; }
 
 .ulConta {
   grid-area: ulConta;

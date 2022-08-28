@@ -93,8 +93,7 @@
 
 
 .imaProduc{
-  width: 600px;
-  height: 700px;
+  @include medidas(600px, 700px);
   margin-top: 1rem;
   &:hover{
     box-shadow: 0 0.1rem 0.4rem black;

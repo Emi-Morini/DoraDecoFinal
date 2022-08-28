@@ -159,12 +159,10 @@ header{
 
             a{
                 display: inline-block;
-                width: 1.5rem;
-                height: 1.5rem;
+                @include medidas(1.5rem, 1.5rem);
 
                 img{
-                    width: 1.3rem;
-                    height: 1.3rem;
+                    @include medidas(1.3rem, 1.3rem);
                 }
             }
             

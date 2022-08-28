@@ -26,16 +26,12 @@
 
 .parraConta{
     grid-area: parraConta;
-    font-size: 1.2rem;
-    font-family: $font-frank;
-    margin: 1rem;
+    @extend %parra-conta;
 }
 
 .parraContaDos{
     grid-area: parraContaDos;
-    font-size: 1.2rem;
-    font-family: $font-frank;
-    margin: 1rem;
+    @extend %parra-conta;
 }
 
 .ulConta{
