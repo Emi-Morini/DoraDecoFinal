@@ -84,12 +84,12 @@ header {
     font-family: "Kdam Thmor Pro", sans-serif;
     text-decoration: solid;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #64421b;
     margin-top: 1rem; }
   .mainHome .parrafo {
     grid-area: parrafo;
-    font-size: 0.4rem;
+    font-size: 0.8rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     text-align: center;
