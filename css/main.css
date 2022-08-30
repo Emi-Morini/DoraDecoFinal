@@ -291,7 +291,7 @@ header {
   grid-area: tituConta;
   font-family: "Kdam Thmor Pro", sans-serif;
   color: #64421b;
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 .parraConta {
   grid-area: parraConta; }
@@ -308,7 +308,7 @@ header {
   font-family: "Kdam Thmor Pro", sans-serif;
   color: #64421b;
   font-size: 1.3rem;
-  margin: 2rem; }
+  margin: 1.5rem; }
 
 .formConta {
   grid-area: formConta;
